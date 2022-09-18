@@ -15,5 +15,6 @@ namespace MyMovieDatabase.Data.EFCore
         }
 
         public DbSet<Movie> Movies { get; set; } = default!;
+        public DbSet<Star> Star { get; set; } = default!;
     }
 }

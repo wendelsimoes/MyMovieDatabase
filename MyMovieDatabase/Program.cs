@@ -8,6 +8,7 @@ builder.Services.AddDbContext<MyMovieDatabaseContext>(options =>
 
 // Add services to the container.
 builder.Services.AddScoped<EfCoreMovieRepository>();
+builder.Services.AddScoped<EfCoreStarRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
